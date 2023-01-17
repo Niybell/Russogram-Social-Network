@@ -1,0 +1,28 @@
+.searchForm{
+  display: flex;
+}
+.searchButton{
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--blue);
+  background-color: var(--gray);
+  border-radius: 4px;
+  margin-left: 5px;
+}
+.searchField{
+  border: 1px solid var(--blue);
+  background-color: var(--gray);
+  border-radius: 4px;
+  color: white;
+  width: 300px;
+}
+.searchField::placeholder{
+  color: white;
+}
+.searchIco{
+  height: 15px;
+  width: 15px;
+}

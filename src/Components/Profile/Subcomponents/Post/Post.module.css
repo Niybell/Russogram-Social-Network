@@ -1,0 +1,43 @@
+.post{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  background-color: rgb(94, 94, 94);
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 1060px;
+}
+.header{
+  display: flex;
+  align-items: center;
+}
+.avatar{
+  height: 40px;
+  width: 40px;
+  background: white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.username{
+  color: var(--blue);
+  margin: 0;
+}
+.date{
+  margin: 0;
+  margin-left: 69%;
+  color:rgb(156, 156, 156)
+}
+.feetback{
+  display: flex;
+}
+.likesCount{
+  margin-right: 10px;
+  color: rgb(130, 130, 255);
+}
+.dislikesCount{
+  color: rgb(255, 98, 98);
+}
+.message{
+  word-wrap: break-word;
+}

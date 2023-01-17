@@ -1,0 +1,22 @@
+.inputMessage{
+  display: flex;
+}
+.inputMessage textarea{
+  height: 50px;
+  width: 90%;
+  background: rgb(85, 85, 85);
+  border: 2px solid var(--blue);
+  border-radius: 5px;
+  resize: none;
+  color: white;
+}
+.inputMessage button{
+  width: 58px;
+  height: 58px;
+  background: var(--blue);
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 5px;
+}

@@ -1,0 +1,10 @@
+.container{
+  min-height: 550px;
+  display: flex;
+  justify-content: center;
+}
+.preloader{
+  width: 100px;
+  height: 100px;
+  margin-top: 150px;
+}

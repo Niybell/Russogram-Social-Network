@@ -1,0 +1,25 @@
+.secondInfo{
+  font-size: 20px;
+  color: white;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid var(--blue);
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(75, 75, 75);
+}
+.value{
+  width: 50%;
+  color: var(--blue);
+}
+.item{
+  margin: 15px 0;
+  width: 100%;
+  display: flex;
+}
+.key{
+  width: 50%;
+}

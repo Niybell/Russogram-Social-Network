@@ -1,0 +1,22 @@
+.dialogHeader {
+  display: flex;
+  color: white;
+  width: 51%;
+  min-height: 35px;
+  align-items: center;
+  padding: 5px;
+  background: rgb(97, 97, 97);
+  position: fixed;
+  border-radius: 5px;
+}
+.avatar{
+  height: 40px;
+  width: 40px;
+  background: white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.status{
+  color: var(--blue);
+  margin-left: 70%;
+}

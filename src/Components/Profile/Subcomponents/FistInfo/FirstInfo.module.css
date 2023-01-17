@@ -1,0 +1,129 @@
+.defaultAvatar{
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+
+  background: rgb(204, 203, 203);
+}
+.avatar{
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+}
+.userInfo{
+  margin-top: 20px;
+  display: flex;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  margin-left: 10px;
+}
+.username{
+  color: white;
+  font-size: 33px;
+  display: inline;
+  margin: 0 0 2px 0;
+}
+.description{
+  color: white;
+  margin: 0;
+  font-size: 21px;
+}
+.description:hover{
+  color: rgb(230, 230, 230);
+
+}
+.date{
+  color:rgb(145, 144, 144);
+  margin-left: 52%;
+}
+.counter{
+  width: 100%;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.item{
+  margin-left: 50px;
+  font-size: 25px;
+  color: rgb(238, 238, 238);
+}
+.count{
+  color: var(--blue);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.avatarContainer{
+  display: flex;
+  flex-direction: column;
+}
+.avatarContainer button{
+  width: 200px;
+  margin-top: 5px;
+  background: var(--blue);
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatarContainer button a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.avatarContainer button:hover, .saveButton:hover{
+  background-color: rgb(223, 63, 238);
+}
+.avatarContainer button:active, .saveButton:active{
+  background-color: rgb(198, 55, 211);
+}
+.nullStatus{
+  color: rgb(158, 158, 158);
+  font-weight: 400;
+  font-size: 20px;
+}
+.writeStatusContainer{
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid var(--blue);
+  background: rgb(88, 88, 88);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.writeStatus{
+  margin-bottom: 10px;
+  width: 300px;
+  height: 20px;
+  border: 2px solid var(--blue);
+  background: rgb(88, 88, 88);
+  border-radius: 5px;
+  color: white;
+}
+.saveButton{
+  height: 30px;
+  border: 0;
+  background: var(--blue);
+  border-radius: 5px;
+  color: white;
+}
+.writeStatus:focus{
+  outline: none;
+}
+.editButton{
+  color: white;
+  text-decoration: none;
+}

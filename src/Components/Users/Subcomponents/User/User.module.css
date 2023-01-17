@@ -1,0 +1,72 @@
+.item {
+  margin: 30px 20px;
+  border: 2px solid var(--blue);
+  background: rgb(85, 85, 85);
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.defaultAvatar {
+  height: 40px;
+  width: 40px;
+  background: white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+.lastOnline {
+  color: rgb(143, 143, 143);
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.location {
+  color: var(--blue);
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.mainInfo {
+  display: flex;
+  margin-top: 10px;
+}
+
+.followOrUnfollow {
+  background: var(--blue);
+  width: 35px;
+  height: 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin-left: 2px;
+}
+
+.status {
+  color: white;
+  margin-left: 10px;
+  word-wrap: break-word;
+  max-width: 1000px;
+}

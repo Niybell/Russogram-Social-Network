@@ -1,0 +1,67 @@
+.postsEditor{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.createNewPost{
+  width: 99%;
+  height: 120px;
+  background-color: rgb(110, 110, 110);
+  border-radius: 5px;
+  border: 0;
+  padding: 5px;
+  color: white;
+  font-size: 17px;
+  resize: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.createNewPost:focus{
+  background-color: rgb(134, 134, 134);
+  border: none;
+  outline: 0;
+}
+.public{
+  background-color: rgb(212, 59, 226);
+  width: 20%;
+  color: white;
+  text-transform: uppercase;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.public:hover{
+  background-color: rgb(223, 63, 238);
+}
+.public:active{
+  background-color: rgb(198, 55, 211);
+}
+.tools{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.textDecoration{
+  display: flex;
+  background-color: rgb(95, 95, 95);
+  height: 40px;
+  width: 78.7%;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+.textDecoration button{
+  border-radius: 5px;
+  border: none;
+  margin: 0 5px;
+  height: 22px;
+  width: 22px;
+  background-color: rgb(82, 82, 82);
+  color: white;
+}
+.underline{
+  text-decoration: underline;
+}
+.linethrough{
+  text-decoration: line-through;
+}

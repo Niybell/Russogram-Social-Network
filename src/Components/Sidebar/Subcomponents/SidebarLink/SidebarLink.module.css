@@ -1,0 +1,33 @@
+.item {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.item:hover {
+  background-color: rgb(71, 71, 71);
+}
+
+.active {
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+  background-color: rgb(65, 65, 65);
+}
+
+.item {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 60%;
+  padding: 5px;
+}
+
+.ico {
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--blue);
+  margin-right: 10px;
+  border-radius: 50%;
+}

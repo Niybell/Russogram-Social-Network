@@ -1,0 +1,28 @@
+.nav{
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nav button{
+  height: 30px;
+  margin: 0 4px;
+  width: 30px;
+  background: var(--blue);
+  border: 0;
+  border-radius: 5px;
+  color: white;
+}
+.nav input {
+  background: rgb(85, 85, 85);
+  border: 2px solid var(--blue);
+  border-radius: 5px;
+  color: white;
+}
+.options{
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}

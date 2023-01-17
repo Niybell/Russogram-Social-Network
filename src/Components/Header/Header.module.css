@@ -1,0 +1,86 @@
+.header{
+  background: rgb(65, 65, 65);
+  color: white;
+  grid-area: h;
+  border-bottom: 2px solid var(--blue);
+}
+.container{
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title{
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.field{
+  margin-right: 5px;
+  background-color: rgb(63, 63, 63);
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+  height: 25px;
+  width: 200px;
+  text-align: center;
+  color: white;
+}
+.avatar{
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.profileContainer{
+  align-items: center;
+  display: flex;
+}
+.singIn{
+  background-color: rgb(63, 63, 63);
+  color: white;
+  border: 1px solid var(--blue);
+  border-radius: 5px;
+  padding: 7px 20px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+.singIn:hover{
+  background-color: rgb(78, 78, 78);
+}
+.singIn:active{
+  background-color: rgb(65, 63, 63);
+
+}
+.singUp, .singOut{
+  background-color: var(--blue);
+  color: white;
+  border-radius: 5px;
+  padding: 7px 20px;
+  font-size: 14px;
+  border: 0;
+}
+.singUp:hover, .singOut:hover{
+  background-color: rgb(233, 97, 226);
+}
+.singUp:active, .singOut:active{
+  background-color: rgb(180, 76, 175);
+}
+.singOut{
+  margin-left: 10px;
+}
+.NavLink{
+  padding: 0;
+}
+.NavLink:hover{
+  color: rgb(233, 233, 233);
+}
+.NavLink:hover div{
+  background-color: rgb(233, 233, 233);
+}

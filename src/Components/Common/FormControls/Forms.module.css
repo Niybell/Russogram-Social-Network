@@ -1,0 +1,12 @@
+.error{
+  box-shadow: 0px 0px 20px rgb(255, 148, 148);
+  margin-bottom: 0;
+}
+.errorSpan{
+  color: rgb(255, 148, 148);
+  margin-top: 0;
+  font-weight: bold;
+}
+.errorDiv{
+  padding-bottom: 20px; 
+}

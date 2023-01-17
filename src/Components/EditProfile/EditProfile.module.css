@@ -1,0 +1,41 @@
+.editProfile{
+  color: white;
+}
+.title{
+  text-align: center;
+  margin: 0;
+}
+.line{
+  width: 99%;
+  margin: 30px auto;
+  height: 3px;
+  background-color: var(--blue);
+  border-radius: 2px;
+}
+.form{
+  font-size: 24px;
+}
+.form div{
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+}
+.form div input{
+  width: 300px;
+  font-size: 18px;
+
+  margin: 0 10px;
+  border: 2px solid var(--blue);
+  background-color: var(--gray);
+  border-radius: 4px;
+  color: white;
+}
+.form button{
+  width: 300px;
+  height: 50px;
+  background-color: var(--blue);
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  margin: 0 auto;
+}
